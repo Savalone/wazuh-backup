@@ -10,5 +10,5 @@ for volumen in $volumenes; do
     sudo docker run --rm -v "$volumen":/data -v "$directorio":/backup busybox tar cvf /backup/"$volumen".tar /data &>/dev/null
 done
 
-sudo chown gtech:gtech "$directorio"/*
+sudo chown user:user "$directorio"/*
 mv "$directorio" $(pwd)
