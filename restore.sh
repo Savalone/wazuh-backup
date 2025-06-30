@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directorio donde se encuentran los archivos .tar que contienen los respaldos de los volúmenes
-BACKUP_DIR="/home/gtech/wazuh-backup"  # Cambia esta ruta a donde descomprimiste los .tar
+BACKUP_DIR="/home/wazuh-backup"  # Cambia esta ruta a donde descomprimiste los .tar
 # Obtener la lista de archivos .tar
 TAR_FILES=$(ls $BACKUP_DIR/*.tar)
 
